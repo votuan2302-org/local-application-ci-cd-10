@@ -7,6 +7,8 @@ metadata:
     # GitHub integration - để hiển thị CI/CD status
     github.com/project-slug: votuan2302-org/local-application-ci-cd-10
     argocd/app-name: local-application-ci-cd-10
+    pagerduty.com/service-id: PRCQC9X
+    pagerduty.com/component-tag: local-application-ci-cd-10
     # Backstage annotations
     backstage.io/techdocs-ref: dir:.
   tags:
