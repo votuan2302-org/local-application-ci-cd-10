@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: local-application-ci-cd-10
+  description: local-application-ci-cd-10
+  annotations:
+    # GitHub integration - để hiển thị CI/CD status
+    github.com/project-slug: votuan2302-org/local-application-ci-cd-10
+    argocd/app-name: local-application-ci-cd-10
+    # Backstage annotations
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - nodejs
+    - cicd
+  links:
+    - url: https://github.com/votuan2302-org/local-application-ci-cd-10
+      title: GitHub Repository
+      icon: github
+    - url: https://github.com/votuan2302-org/local-application-ci-cd-10/actions
+      title: CI/CD Pipeline
+      icon: dashboard
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/admins
+
